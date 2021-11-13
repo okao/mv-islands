@@ -1,7 +1,7 @@
 {
-  "name": "@okao/okao-mv-islands",
-  "version": "1.0.0",
-  "description": "mv islands component",
+  "name": "@okao/mv-islands",
+  "version": "1.0.1",
+  "description": "mv islands component name changed",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "source": "src/index.jsx",

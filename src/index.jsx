@@ -1,4 +1,4 @@
-import data from './islands';
+import data from './islands.json';
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
 import React, { Component, Fragment } from 'react';
@@ -7,7 +7,7 @@ const atoll_islands = data.map(atoll_island => ({ value: `${atoll_island.atoll}.
 const animatedComponents = makeAnimated();
 
 
-export default class SingleSelect extends Component {
+export default class MvIslands extends Component {
   render() {
     return (
       <Fragment>
