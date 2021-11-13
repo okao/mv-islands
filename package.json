@@ -1,0 +1,30 @@
+{
+  "name": "@okao/okao-mv-islands",
+  "version": "1.0.0",
+  "description": "mv islands component",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "source": "core/index.jsx",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "okao",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-select": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "react": "^17.0.2",
+    "react-select": "^5.2.1",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
